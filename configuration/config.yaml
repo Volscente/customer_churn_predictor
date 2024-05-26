@@ -1,0 +1,4 @@
+# -------- Exploratory Data Analysis --------
+dataset:
+  path: 'data/raw/telco_customer_churn_data.csv'
+# -------------------------------------------
