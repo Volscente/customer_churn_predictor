@@ -24,3 +24,11 @@ test_categorical_data_transformations:
   one_hot_encoding:
     include: True
     module: 'OneHotEncoder'
+
+# Test classification metrics
+test_classification_metrics:
+  - 'Accuracy'
+  - 'Precision'
+  - 'Recall'
+  - 'F1 Score'
+  - 'ROC AUC'
