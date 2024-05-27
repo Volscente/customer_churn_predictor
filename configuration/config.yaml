@@ -2,3 +2,54 @@
 dataset:
   path: 'data/raw/telco_customer_churn_data.csv'
 # -------------------------------------------
+
+# -------- Data Preparation --------
+data_pipeline_config:
+  data_transformations:
+    numerical:
+      feature_engineering:
+        include: False
+        module: None
+      imputation:
+        include: True
+        module: 'SimpleImputer'
+      standardisation:
+        include: True
+        module: 'MinMaxScaler'
+      normalization:
+        include: False
+        module: None
+    categorical:
+      imputation:
+        include: True
+        module: 'SimpleImputer'
+      one_hot_encoding:
+        include: True
+        module: 'OneHotEncoder'
+  features:
+    numerical:
+      - 'tenure'
+      - 'MonthlyCharges'
+      - 'TotalCharges'
+    categorical:
+      - 'gender'
+      - 'SeniorCitizen'
+      - 'Partner'
+      - 'Dependents'
+      - 'PhoneService'
+      - 'MultipleLines'
+      - 'InternetService'
+      - 'OnlineSecurity'
+      - 'OnlineBackup'
+      - 'DeviceProtection'
+      - 'TechSupport'
+      - 'StreamingTV'
+      - 'StreamingMovies'
+      - 'Contract'
+      - 'PaperlessBilling'
+      - 'PaymentMethod'
+  labels:
+    - 'Churn'
+  train_test_split:
+    test_size: 0.33
+    random_state: 108
