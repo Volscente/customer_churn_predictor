@@ -1,3 +1,11 @@
+v.1.0.2
+------
+- [x] Add module `data_preparation_utils.py` in `src/data_preparation`
+- [x] Add `conftest.py` in `tests`
+- [x] Add PyTest `test_data_preparation.py` in `tests`
+- [x] Add module `data_preparation` in `src/data_preparation`
+- [x] Add Notebook `telco_customer_churn_model_training.ipynb` in `notebooks`
+
 v.1.0.1
 ------
 - [x] Add data `telco_customer_churn_data.csv` in `data/raw`
