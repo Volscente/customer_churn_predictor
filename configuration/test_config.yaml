@@ -1,2 +1,26 @@
 # PyTest test_read_configuration
 test_value: 1
+
+# Test numerical data transformations
+test_numerical_data_transformations:
+  feature_engineering:
+    include: False
+    module: None
+  imputation:
+    include: True
+    module: 'SimpleImputer'
+  standardisation:
+    include: False
+    module: None
+  normalization:
+    include: False
+    module: None
+
+# Test categorical data transformations
+test_categorical_data_transformations:
+  imputation:
+    include: True
+    module: 'SimpleImputer'
+  one_hot_encoding:
+    include: True
+    module: 'OneHotEncoder'
