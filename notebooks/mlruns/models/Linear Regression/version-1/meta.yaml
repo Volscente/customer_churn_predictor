@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1716889183604
+current_stage: None
+description: null
+last_updated_timestamp: 1716889183604
+name: Linear Regression
+run_id: d345e1e599c0487a9c217ce87d6f767b
+run_link: null
+source: file:///Users/s.porreca/Projects/customer_churn_predictor/notebooks/mlruns/887185653513794297/d345e1e599c0487a9c217ce87d6f767b/artifacts/model_artifacts
+status: READY
+status_message: null
+storage_location: file:///Users/s.porreca/Projects/customer_churn_predictor/notebooks/mlruns/887185653513794297/d345e1e599c0487a9c217ce87d6f767b/artifacts/model_artifacts
+user_id: null
+version: 1

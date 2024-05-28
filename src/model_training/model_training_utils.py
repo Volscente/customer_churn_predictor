@@ -72,10 +72,11 @@ def compute_classification_metrics(y_predicted: np.ndarray,
 
     if 'ROC AUC' in metrics:
         # Compute ROC AUC
-        roc_auc_value = round(roc_auc_score(y_true, probabilities), round_precision)
+        roc_auc_value = round(roc_auc_score(y_true, probabilities[:, 1]), round_precision)
         computed_metrics.loc['ROC AUC'] = roc_auc_value
 
-    logger.info('compute_classification_metrics - Compute metrics %s', computed_metrics)
+    logger.info('compute_classification_metrics - Computed metrics')
+    logger.info(computed_metrics)
 
     logger.info('compute_classification_metrics - End')
 

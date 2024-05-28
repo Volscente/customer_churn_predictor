@@ -53,3 +53,19 @@ data_pipeline_config:
   train_test_split:
     test_size: 0.33
     random_state: 108
+# ----------------------------------
+
+# ----------- Model Training -------------
+model_training_config:
+  mlflow:
+    experiment_name: 'Version 1.0.3'
+  metrics:
+    - 'Accuracy'
+    - 'Precision'
+    - 'Recall'
+    - 'F1 Score'
+    - 'ROC AUC'
+  linear_regression:
+    model_name: 'linear_regression'
+    mlflow_run_name: 'Linear Regression'
+# ---------------------------------------
