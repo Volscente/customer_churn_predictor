@@ -71,4 +71,10 @@ model_training_config:
   xgboost:
     model_name: 'xgboost'
     mlflow_run_name: 'XGBoost'
+    parameters:
+      n_estimators: 600
+      objective: 'binary:logistic'
+      max_depth: 6
+      min_child_weight: 10
+      learning_rate: 0.01
 # ---------------------------------------
