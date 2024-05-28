@@ -65,7 +65,7 @@ model_training_config:
     - 'Recall'
     - 'F1 Score'
     - 'ROC AUC'
-  linear_regression:
-    model_name: 'linear_regression'
-    mlflow_run_name: 'Linear Regression'
+  logistic_regression:
+    model_name: 'logistic_regression'
+    mlflow_run_name: 'Logistic Regression'
 # ---------------------------------------
