@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "customer-churn-predictor"
-version = "1.0.2"
+version = "1.0.3"
 description = "Develop an end-to-end solution for predicting customer churn for a subscription-based service"
 authors = ["Simone Porreca <porrecasimone@gmail.com>"]
 readme = "README.md"
