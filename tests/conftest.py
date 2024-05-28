@@ -53,3 +53,20 @@ def fixture_categorical_data_transformations(
     """
 
     return test_categorical_data_transformations
+
+
+@pytest.fixture
+def fixture_classification_metrics(
+        test_classification_metrics: list = configuration['test_classification_metrics']
+) -> list:
+    """
+    Fixture for classification metrics list
+
+    Args:
+        test_classification_metrics: list of classification metrics
+
+    Returns:
+        test_classification_metrics: list of classification metrics
+    """
+
+    return test_classification_metrics

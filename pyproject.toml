@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "customer-churn-predictor"
-version = "1.0.2"
+version = "1.0.3"
 description = "Develop an end-to-end solution for predicting customer churn for a subscription-based service"
 authors = ["Simone Porreca <porrecasimone@gmail.com>"]
 readme = "README.md"
@@ -11,6 +11,11 @@ pytest = "8.2.0"
 pylint = "^3.2.2"
 pylint-pytest = "^1.1.8"
 scikit-learn = "^1.5.0"
+torch = "2.2.0"
+transformers = "^4.41.1"
+mlflow = "^2.13.0"
+statsmodels = "^0.14.2"
+xgboost = "^2.0.3"
 
 
 [tool.poetry.group.dev.dependencies]
