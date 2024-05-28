@@ -1,14 +1,14 @@
 aliases: []
-creation_timestamp: 1716890142678
+creation_timestamp: 1716893649006
 current_stage: None
 description: null
-last_updated_timestamp: 1716890142678
+last_updated_timestamp: 1716893649006
 name: Logistic Regression
-run_id: 16c504d8a91949d8bd4a06c4cb9b0eb4
+run_id: 4a7d8f3bddaa4491b66f7ea62120891e
 run_link: null
-source: file:///Users/s.porreca/Projects/customer_churn_predictor/notebooks/mlruns/887185653513794297/16c504d8a91949d8bd4a06c4cb9b0eb4/artifacts/model_artifacts
+source: file:///Users/s.porreca/Projects/customer_churn_predictor/notebooks/mlruns/887185653513794297/4a7d8f3bddaa4491b66f7ea62120891e/artifacts/model_artifacts
 status: READY
 status_message: null
-storage_location: file:///Users/s.porreca/Projects/customer_churn_predictor/notebooks/mlruns/887185653513794297/16c504d8a91949d8bd4a06c4cb9b0eb4/artifacts/model_artifacts
+storage_location: file:///Users/s.porreca/Projects/customer_churn_predictor/notebooks/mlruns/887185653513794297/4a7d8f3bddaa4491b66f7ea62120891e/artifacts/model_artifacts
 user_id: null
 version: 1

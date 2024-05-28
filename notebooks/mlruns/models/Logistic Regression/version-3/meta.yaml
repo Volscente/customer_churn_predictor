@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1716902610681
+current_stage: None
+description: null
+last_updated_timestamp: 1716902610681
+name: Logistic Regression
+run_id: 8ea3b79ab26f42febeddd7dcb50b0a26
+run_link: null
+source: file:///Users/s.porreca/Projects/customer_churn_predictor/notebooks/mlruns/887185653513794297/8ea3b79ab26f42febeddd7dcb50b0a26/artifacts/model_artifacts
+status: READY
+status_message: null
+storage_location: file:///Users/s.porreca/Projects/customer_churn_predictor/notebooks/mlruns/887185653513794297/8ea3b79ab26f42febeddd7dcb50b0a26/artifacts/model_artifacts
+user_id: null
+version: 3

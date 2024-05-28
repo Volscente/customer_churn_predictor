@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/s.porreca/Projects/customer_churn_predictor/notebooks/mlruns/887185653513794297/4a7d8f3bddaa4491b66f7ea62120891e/artifacts
+end_time: 1716893649011
+entry_point_name: ''
+experiment_id: '887185653513794297'
+lifecycle_stage: active
+run_id: 4a7d8f3bddaa4491b66f7ea62120891e
+run_name: Logistic Regression
+run_uuid: 4a7d8f3bddaa4491b66f7ea62120891e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716893645630
+status: 3
+tags: []
+user_id: s.porreca

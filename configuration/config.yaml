@@ -68,4 +68,7 @@ model_training_config:
   logistic_regression:
     model_name: 'logistic_regression'
     mlflow_run_name: 'Logistic Regression'
+  xgboost:
+    model_name: 'xgboost'
+    mlflow_run_name: 'XGBoost'
 # ---------------------------------------
