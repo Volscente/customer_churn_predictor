@@ -14,12 +14,12 @@ from src.model_training.model_training_utils import (
 
 @pytest.mark.parametrize('y_predicted, probabilities, y_true, expected_metrics', [
     ([1, 1, 0, 0, 1],
-     [0.8, 0.8, 0.2, 0.2, 0.8],
+     np.array([[0.2, 0.8], [0.2, 0.8], [0.8, 0.2], [0.8, 0.2], [0.2, 0.8]]),
      [1, 1, 0, 0, 0],
      [0.8, 0.67, 1.00, 0.80, 0.83])
 ])
 def test_compute_classification_metrics(y_predicted: np.ndarray,
-                                        probabilities: np.ndarray,
+                                        probabilities: np.array,
                                         y_true: np.ndarray,
                                         expected_metrics: np.ndarray,
                                         fixture_classification_metrics: list) -> bool:
@@ -29,7 +29,7 @@ def test_compute_classification_metrics(y_predicted: np.ndarray,
 
     Args:
         y_predicted: np.ndarray of predicted values
-        probabilities: np.ndarray of probabilities
+        probabilities: np.array of probabilities
         y_true: np.ndarray of true values
         expected_metrics: np.ndarray of expected classification metrics values
         fixture_classification_metrics: list of metrics
