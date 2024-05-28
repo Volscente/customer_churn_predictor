@@ -1,3 +1,10 @@
+v.1.0.3
+------
+- [x] Add module `model_training_utils.py` in `src/model_training`
+- [x] Add module `model_training.py` in `src/model_training`
+- [x] Add PyTest `test_model_training.py` in `tests`
+- [x] Add Notebook `telco_customer_churn_model_training.ipynb` in `notebooks`
+
 v.1.0.2
 ------
 - [x] Add module `data_preparation_utils.py` in `src/data_preparation`
