@@ -58,3 +58,10 @@ poetry install
 # Use the option '--without test,docs,dev' if you want to esclude the specified group from install
 poetry install --without test,docs,dev
 ```
+
+## MLflow
+### Usage
+```bash
+cd notebooks
+poetry run mlflow ui
+```
