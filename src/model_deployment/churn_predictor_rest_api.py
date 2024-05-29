@@ -71,6 +71,7 @@ def load_resources():
 def predict(customer_id: str) -> dict:
     """
     Given a customer_id, predict whether the customer is churn or not.
+
     Args:
         customer_id: String customer id
     """

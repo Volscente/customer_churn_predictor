@@ -1,3 +1,8 @@
+v.1.0.4
+------
+- [x] Add module `churn_predictor_rest_api.py` in `src/model_deployment`
+- [x] Add `Dockerfile` in `docker`
+
 v.1.0.3
 ------
 - [x] Add module `model_training_utils.py` in `src/model_training`
