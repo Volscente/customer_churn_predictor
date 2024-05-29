@@ -3,8 +3,8 @@ The module implement a REST API service with FastAPI for churn prediction servic
 """
 # Import Standard Libraries
 import os
-import mlflow
 from pathlib import Path
+import mlflow
 import pandas as pd
 from fastapi import FastAPI
 
