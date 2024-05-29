@@ -16,4 +16,4 @@ EXPOSE 8000
 # Install dependencies
 RUN poetry install
 
-CMD ["poetry", "run", "uvicorn", "src.model_deployment.churn_predictor_rest_api:app", "--reload"]
+CMD ["poetry", "run", "uvicorn", "src.model_deployment.churn_predictor_rest_api:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]

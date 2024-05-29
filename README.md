@@ -20,6 +20,14 @@ Afterwards, you can execute existing commands located in the `justfile`.
 
 Type `just` to list all available commands.
 
+# Usage
+1. Build the docker image through the just command `just build_docker 1.0.4`.
+
+2. Start the docker container through the just command `just start_docker`
+
+3. Navigate to http://0.0.0.0:8000/docs
+
+4. Try a customer ID from `data/prediction/sample.csv`
 
 ## Poetry
 
