@@ -78,3 +78,9 @@ model_training_config:
       min_child_weight: 10
       learning_rate: 0.01
 # ---------------------------------------
+
+# ----------- Model Deployment -------------
+model_deployment_config:
+  model_path: 'notebooks/mlruns/887185653513794297/c02e5a8508c94a21bf5296cd97829e47/artifacts/model_artifacts'
+  database_path: 'data/prediction/sample.csv'
+# ------------------------------------------
