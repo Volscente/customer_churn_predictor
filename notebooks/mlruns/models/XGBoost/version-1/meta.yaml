@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1716903751981
+current_stage: None
+description: null
+last_updated_timestamp: 1716903751981
+name: XGBoost
+run_id: 0963be83f1e84296a4e7570d97ed2785
+run_link: null
+source: file:///Users/s.porreca/Projects/customer_churn_predictor/notebooks/mlruns/887185653513794297/0963be83f1e84296a4e7570d97ed2785/artifacts/model_artifacts
+status: READY
+status_message: null
+storage_location: file:///Users/s.porreca/Projects/customer_churn_predictor/notebooks/mlruns/887185653513794297/0963be83f1e84296a4e7570d97ed2785/artifacts/model_artifacts
+user_id: null
+version: 1

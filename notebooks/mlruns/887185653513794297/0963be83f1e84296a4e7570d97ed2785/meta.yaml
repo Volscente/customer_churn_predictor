@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/s.porreca/Projects/customer_churn_predictor/notebooks/mlruns/887185653513794297/0963be83f1e84296a4e7570d97ed2785/artifacts
+end_time: 1716903751986
+entry_point_name: ''
+experiment_id: '887185653513794297'
+lifecycle_stage: active
+run_id: 0963be83f1e84296a4e7570d97ed2785
+run_name: XGBoost
+run_uuid: 0963be83f1e84296a4e7570d97ed2785
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716903749482
+status: 3
+tags: []
+user_id: s.porreca

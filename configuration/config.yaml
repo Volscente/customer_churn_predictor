@@ -1,0 +1,86 @@
+# -------- Exploratory Data Analysis --------
+dataset:
+  path: 'data/raw/telco_customer_churn_data.csv'
+# -------------------------------------------
+
+# -------- Data Preparation --------
+data_pipeline_config:
+  data_transformations:
+    numerical:
+      feature_engineering:
+        include: False
+        module: None
+      imputation:
+        include: True
+        module: 'SimpleImputer'
+      standardisation:
+        include: True
+        module: 'MinMaxScaler'
+      normalization:
+        include: False
+        module: None
+    categorical:
+      imputation:
+        include: True
+        module: 'SimpleImputer'
+      one_hot_encoding:
+        include: True
+        module: 'OneHotEncoder'
+  features:
+    numerical:
+      - 'tenure'
+      - 'MonthlyCharges'
+      - 'TotalCharges'
+    categorical:
+      - 'gender'
+      - 'SeniorCitizen'
+      - 'Partner'
+      - 'Dependents'
+      - 'PhoneService'
+      - 'MultipleLines'
+      - 'InternetService'
+      - 'OnlineSecurity'
+      - 'OnlineBackup'
+      - 'DeviceProtection'
+      - 'TechSupport'
+      - 'StreamingTV'
+      - 'StreamingMovies'
+      - 'Contract'
+      - 'PaperlessBilling'
+      - 'PaymentMethod'
+  labels:
+    - 'Churn'
+  train_test_split:
+    test_size: 0.33
+    random_state: 108
+# ----------------------------------
+
+# ----------- Model Training -------------
+model_training_config:
+  mlflow:
+    experiment_name: 'Version 1.0.3'
+  metrics:
+    - 'Accuracy'
+    - 'Precision'
+    - 'Recall'
+    - 'F1 Score'
+    - 'ROC AUC'
+  logistic_regression:
+    model_name: 'logistic_regression'
+    mlflow_run_name: 'Logistic Regression'
+  xgboost:
+    model_name: 'xgboost'
+    mlflow_run_name: 'XGBoost'
+    parameters:
+      n_estimators: 600
+      objective: 'binary:logistic'
+      max_depth: 6
+      min_child_weight: 10
+      learning_rate: 0.01
+# ---------------------------------------
+
+# ----------- Model Deployment -------------
+model_deployment_config:
+  model_path: 'notebooks/mlruns/887185653513794297/c02e5a8508c94a21bf5296cd97829e47/artifacts/model_artifacts'
+  database_path: 'data/prediction/sample.csv'
+# ------------------------------------------
