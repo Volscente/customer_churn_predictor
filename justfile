@@ -20,3 +20,11 @@ test:
 # Start Jupyter Lab with the Poetry Virtual Environment
 jupy:
   poetry run jupyter lab
+
+# Start Churn Predictor local REST API
+start_local:
+    poetry run uvicorn src.model_deployment.churn_predictor_rest_api:app --reload
+
+# Build docker image
+build_docker tag:
+    docker image build -f ./docker/Dockerfile -t volscente/churn_predictor_image:{{tag}} .
